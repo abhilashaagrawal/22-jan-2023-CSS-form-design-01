@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+           background :rgb(242, 225, 225);
+           font-family: Arial, Helvetica, sans-serif;
+        }
+        .myform{
+            width:60%;
+            height: 500px;
+            margin: 100px auto;
+            border-radius: 15px;
+            overflow: hidden;
+            clear: both;
+            box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        .white{
+           float: left;
+           width: 50%;
+           background: #fff;
+           height: 100%;
+        }
+        .white>h1{
+            color: black;
+            margin: 80px auto;
+
+        }
+        .pink{
+           float: left;
+           width: 50%;
+           height: 100%;
+           background-image: -webkit-linear-gradient(left,#FF464C,#E25858);
+           color: #fff;
+           text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+        }
+        a.social_icons{
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            line-height: 50px;
+            border-radius: 50px;
+            border: 1px solid #303030;
+            color:#303030 ;
+            font-size: 1.5em;
+        }
+        .white a{
+            text-decoration: none;
+            color:#303030 ;
+
+        }
+        .myform input[type="text"]{
+            width: 97%;
+            background: #EFEFEF;
+            padding: 10px 0px 10px 10px;
+            margin: 5px 0px;
+        }
+        .myform input[type="submit"]{
+            background: #FF464C;
+            border-radius: 50px;
+            color: #fff;
+            border: none;
+            padding: 9px 50px;
+            font-size: 0.9em;
+            border-radius: 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form class="myform">
+        <div class="white">
+            <div style="margin: 80px 70px;">
+                <h1>Login</h1>
+              <a href="#" class="social_icons">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social_icons">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            <p>or use your account</p>
+            <input type="text" placeholder="Email"/>
+            <br>
+            <input type="text" placeholder="Password"/>
+            <div style="margin: 20px 0px;">
+            <a href="#">Forgot your password?</a>
+            </div>
+               <div>
+                <input type="submit" value="LOG IN" />
+               </div>
+            </div>
+        </div>
+        <div class="pink">
+            <div style="margin: 150px 70px;">
+                <h1>HTML CSS Login Form</h1>
+                <p>This login form is created using pure HTML and CSS. For social icons, FontAwesome is used.</p>
+            </div>
+        </div>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
